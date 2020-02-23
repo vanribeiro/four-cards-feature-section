@@ -4,6 +4,7 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+
 @media only screen and (max-width: 600px) {
   .container .header-page {
     width: 80%;
@@ -22,6 +23,7 @@
     padding-bottom: 50px;
   }
 }
+
 /* Primary */
 /* Neutral */
 /* Fonts */
@@ -30,16 +32,17 @@
     display: flex;
   }
 
-  .card:first-child, .card:last-child {
+  /* .card:first-child, .card:last-child {
     width: 33%;
-  }
+  } */
 
-  .col-cards .card {
-    width: auto;
+  .card {
+    width: 230px;
   }
 
   .container {
     width: 90%;
+    margin: auto;
   }
 
   section:first-child, section:last-child {
@@ -47,6 +50,7 @@
     align-self: center;
   }
 }
+
 /* Primary */
 /* Neutral */
 /* Fonts */
@@ -67,8 +71,8 @@ body {
   padding: 30px 0 20px;
 }
 
-.container {
-  margin: auto;
+.container-main {
+  padding: auto;
 }
 
 section {
@@ -78,6 +82,10 @@ section {
   border-top: solid;
   border-top-width: 5px;
   border-radius: 5px;
+}
+
+section .card {
+  width: 400px;
 }
 
 header h1, header p {
